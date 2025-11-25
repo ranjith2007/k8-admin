@@ -9,8 +9,12 @@ data:
   mapUsers: |
     - groups:
       - expense-trainee 
-      userarn: arn:aws:iam::111122223333:user/admin #Ranjith 
-      username: admin #Ranjith          
+      userarn: arn:aws:iam::111122223333:user/suresh   
+      username: suresh   
+    - groups:
+      - expense-admin
+      userarn: arn:aws:iam::111122223333:user/ramesh  
+      username: ramesh                 
 kind: ConfigMap
 metadata:
   creationTimestamp: "2025-11-25T05:13:39Z"
