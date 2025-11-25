@@ -40,7 +40,7 @@ metadata:
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: Role
-  name: expense-trainee 
+  name: expense-admin 
 subjects:
 - apiGroup: rbac.authorization.k8s.io
   kind: User
